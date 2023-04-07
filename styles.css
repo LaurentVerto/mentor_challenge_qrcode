@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d1ddea;
+}
+
+.container {
+    width: 300px;
+    height: 470px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+
+.qr {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom:30px;
+}
+
+.titre{
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.text {
+    padding: 10px;
+   text-align: center;
+}
+
+.text p {
+    color: grey;
+}
+
